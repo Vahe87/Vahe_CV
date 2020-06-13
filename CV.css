@@ -1,0 +1,269 @@
+.header {
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #3b3b3b;
+}
+
+.left_header {
+    width: 40%;
+    background-color: rgb(71, 71, 71);
+    padding-left: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    padding-top: 40px;
+    text-transform: uppercase;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+
+h3 {
+    color: rgb(3, 97, 121);
+    text-transform: uppercase;
+    margin-top: 0;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left_h4 {
+    color: #00a8c5;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.line_color {
+    width: 53%;
+    display: flex;
+    overflow: hidden;
+}
+
+.line_left {
+    background: #00a8c5;
+    width: 60%;
+    height: 25px;
+}
+
+.line_left::before {
+    content: "";
+    height: 46px;
+    width: 20px;
+    transform: rotate(30deg);
+    position: relative;
+    top: -9px;
+    left: -7px;
+    background-color: rgb(71, 71, 71);
+    display: block;
+}
+
+.line_right {
+    background: rgb(3, 97, 121);
+    width: 40%;
+    height: 25px;
+}
+
+.active::before {
+    background-color: white;
+}
+
+.line_right::before {
+    content: "";
+    height: 46px;
+    width: 20px;
+    transform: rotate(30deg);
+    position: relative;
+    top: -9px;
+    left: -7px;
+    background-color: rgb(3, 97, 121);
+    display: block;
+}
+
+.header_text {
+    font-family: cursive;
+    color: rgb(212, 211, 211);
+    font-size: 14px;
+}
+
+.left_h5 {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.contact {
+    display: flex;
+    color: rgb(212, 211, 211);
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.contact_text {
+    margin: 0;
+    margin-left: 15px;
+}
+
+.address {
+    margin: 0;
+}
+
+
+.skills {
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+.skill_ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill_li {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.skill_li p {
+    margin: 0;
+}
+
+.skill_li p::before {
+    content: "+";
+    color: rgb(214, 214, 214);
+    margin-right: 10px;
+}
+
+.top_skill {
+    background-color: #bdf5ff;
+    height: 6px;
+    width: 100px;
+    margin-right: 20px;
+}
+
+.level_skill {
+    width: 50%;
+    background-color: #00a8c5;
+    height: 6px;
+}
+
+.java_script {
+    width: 40%;
+}
+
+.java {
+    width: 40%;
+}
+
+.android {
+    width: 40%;
+}
+
+.git {
+    width: 20%;
+}
+
+.photoshop {
+    width: 30%;
+}
+
+.armenian {
+    width: 90%;
+}
+
+.english {
+    width: 30%;
+}
+
+.russian {
+    width: 70%;
+}
+
+.right_header {
+    width: 60%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    padding-top: 45px;
+}
+
+.right_line {
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right_h4 {
+    color: #3b3b3b;
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    margin: 0;
+}
+
+.active {
+    width: 50%;
+}
+
+.year_work {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px 0;
+}
+
+.education_container {
+    padding-right: 20px;
+    margin-top: 20px;
+}
+
+.education {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.info {
+    max-width: 70%;
+}
+
+.info p {
+    margin-bottom: 0;
+}
+
+.title {
+    margin: 0;
+}
+
+span {
+    color: #00a8c5;
+    font-weight: 700;
+}
+
+footer {
+    max-width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #00a8c5;
+    border: 1px solid #3b3b3b;
+    border-top: 0;
+}
+
+footer a {
+    text-transform: uppercase;
+    padding: 25px;
+    text-decoration: none;
+    color: rgb(214, 214, 214);
+    font-family: Arial, Helvetica, sans-serif;
+}
