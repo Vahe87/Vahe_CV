@@ -1,4 +1,4 @@
-.header {
+body {
     max-width: 700px;
     margin: 0 auto;
     display: flex;
@@ -195,7 +195,7 @@ img {
     width: 60%;
     background-color: #ffffff;
     padding-left: 20px;
-    padding-top: 45px;
+    padding-top: 15px;
 }
 
 .right_line {
@@ -203,6 +203,7 @@ img {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 30px;
 }
 
 .right_h4 {
@@ -245,25 +246,19 @@ img {
     margin: 0;
 }
 
+.education_year {
+    margin-top: 0;
+}
+
 span {
     color: #00a8c5;
     font-weight: 700;
 }
 
-footer {
-    max-width: 700px;
-    margin: auto;
-    display: flex;
-    justify-content: space-around;
-    background-color: #00a8c5;
-    border: 1px solid #3b3b3b;
-    border-top: 0;
-}
-
-footer a {
-    text-transform: uppercase;
-    padding: 25px;
+.ref_git {
+    display: block;
+    color: #3b3b3b;
+    font-weight: 700;
     text-decoration: none;
-    color: rgb(214, 214, 214);
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 35px;
 }
